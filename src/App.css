@@ -1,0 +1,48 @@
+
+.todoh1 {
+  text-decoration: underline;
+}
+.todoinput {
+  background: border-box;
+  color: #fffffe;
+  border-radius: 5px;
+  line-height: 30px;
+  width: 200px;
+  padding: 5px;
+}
+
+.deleteallbutton {
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: red;
+  color: #FFFFFe;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.deletetodo {
+  cursor: pointer;
+}
+
+.todoList {
+  display: flex; 
+  flex-direction: row;
+  justify-content:space-between;
+  border: 1px solid #FFFFFe;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.todos-list {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
